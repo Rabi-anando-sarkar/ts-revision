@@ -1,14 +1,14 @@
-// function addTwo(num:number) {
-//     return num + 2
-// }
+function addTwo(num:number):number {
+    return num + 2
+}
 
-// //addTwo(5)
+//addTwo(5)
 
 // function letUpper(val:string) {
 //     return val.toUpperCase()
 // }
 
-// //letUpper("yo")
+//letUpper("yo")
 
 // function signUp(name:string,email:string,isPaid:boolean):string {
 // }
@@ -32,18 +32,22 @@
 //     return ""
 // }
 
-const heroes = ['captain america', 'doctor strange', 'wanda vision']
+// const heroes = ['captain america', 'doctor strange', 'wanda vision']
 
-heroes.map((hero) => {
-    return `my hero is ${hero}`
-})
+// heroes.map((hero) => {
+//     return `my hero is ${hero}`
+// })
 
-function consoleError(errMsg: string):void {
-    console.log(errMsg);
-}
+// function consoleError(errMsg: string):void {
+//     console.log(errMsg);
+// }
 
-consoleError('damn')
+// consoleError('damn')
 
+
+// function handleError(errMsg: string):never {
+//     throw new Error(errMsg);
+// }
 
 export {}
 
